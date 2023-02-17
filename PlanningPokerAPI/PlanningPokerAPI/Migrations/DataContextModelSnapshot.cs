@@ -9,6 +9,7 @@ using PlanningPokerAPI.Data;
 
 namespace PlanningPokerAPI.Migrations
 {
+
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
     {

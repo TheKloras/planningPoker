@@ -7,7 +7,7 @@ namespace PlanningPokerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GuestUserController : ControllerBase
+    public class GuestUserController : ControllerBase       
     {
         private readonly IGuestUserRepository _GuestUserRepository;
         public GuestUserController(IGuestUserRepository userRepository)

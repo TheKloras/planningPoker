@@ -11,6 +11,7 @@ namespace PlanningPokerAPI.Repository
         {
             _context = context;
         }
+
         public GuestUser Create(GuestUser guestUser)
         {
             _context.GuestUsers.Add(guestUser);

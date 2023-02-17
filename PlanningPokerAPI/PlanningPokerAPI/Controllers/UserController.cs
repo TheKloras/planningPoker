@@ -8,7 +8,7 @@ namespace PlanningPokerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : ControllerBase 
     {
         private readonly IUserRepository _userRepository;
         private readonly JwtService _jwtService;

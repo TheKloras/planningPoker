@@ -4,7 +4,7 @@ using PlanningPokerAPI.Models;
 namespace PlanningPokerAPI.Data
 {
     public class DataContext : DbContext
-    {
+    {//test
         public DataContext(DbContextOptions<DataContext> options):base(options) 
         {
         }

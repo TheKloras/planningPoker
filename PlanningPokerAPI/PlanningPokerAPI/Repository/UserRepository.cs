@@ -12,7 +12,7 @@ namespace PlanningPokerAPI.Repository
         {
             _context = context;
         }
-
+        
         public User Create(User user)
         {
            _context.Users.Add(user);
